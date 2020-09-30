@@ -5,8 +5,7 @@ class House(type: String, price: Double, yearBuilt:Int, owner: String){
     var price: Double? = null
     var yearBuilt: Int? = null
     var owner: String? = null
-
-    init { // initializes all the properties
+    init { // intializes all the properties
         this.type = type
         this.price = price
         this.yearBuilt = yearBuilt
