@@ -1,5 +1,9 @@
 open class Animal(){
 
+    //public visible outside of class
+    //private not visible outside of class
+    //PROTECTED  same as private but is also visible in subclasses or child classes
+    
     var name: String? = null
     var color: String? = null
     var numLegs: Int? = null
@@ -30,6 +34,7 @@ open class Animal(){
 class Lion(): Animal() {
 
 }
+
 
 fun main(args:Array<String>){
 
